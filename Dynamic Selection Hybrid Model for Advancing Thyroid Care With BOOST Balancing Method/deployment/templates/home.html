@@ -1,0 +1,87 @@
+{% extends 'index.html' %}
+
+{% block navbar %}
+    <li><a href="{{ url_for('home') }}" style="color: rgb(0, 0, 0);">Home</a></li>
+    <li><a href="{{ url_for('index') }}">Logout</a></li>
+{% endblock %}
+
+{% block content %}
+    <!-- Hero Section -->
+    <div class="banner_section layout_padding" style="background: linear-gradient(to right, #c67464, #c67464); color: rgb(159, 154, 154);">
+        <div class="container text-center">
+            <h1 class="banner_taital animate-fade-in" style="margin-top: 60px;">WELCOME!</h1>
+            <p class="banner_text animate-slide-up" style="font-size: 22px; max-width: 700px; margin: auto;">
+                A Dynamic Selection Hybrid Model for Advancing Thyroid Care With BOOST Balancing Method
+            </p>
+            <div class="mt-4">
+                <a href="{{ url_for('upload') }}" class="btn btn-light btn-lg" 
+                style="color: black; border-radius: 30px; box-shadow: 0 4px 6px rgba(3, 3, 3, 0.1); transition: 0.3s;">
+                Start Prediction
+             </a>
+             
+             <a href="#learn-more" class="btn btn-outline-light btn-lg" 
+             style="color: black; border-radius: 30px; margin-left: 10px;">
+             Learn More
+          </a>
+          
+            </div>
+        </div>
+    </div>
+
+   <!-- Features Section -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img src="{{ url_for('static', filename='images/timer.png') }}" width="80" alt="Prediction" style="margin-top: 25px;"> 
+            <h3>Fast & Accurate</h3>
+            <p>Our Machine learning model delivers precise thyroid disease predictions.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="{{ url_for('static', filename='images/secure_icon.png') }}" width="80" alt="Prediction" style="margin-top: 20px;">
+            <h3>Secure Data</h3>
+            <p>All patient information remains encrypted and confidential.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="{{ url_for('static', filename='images/health_icon.png') }}" width="80" alt="Prediction" style="margin-top: 20px;">
+            <h3>Health Insights</h3>
+            <p>Get lifestyle and treatment recommendations based on your results.</p>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- About Section -->
+    <div id="learn-more" class="container mt-5 p-4 rounded" style="background: #f4f4f4;">
+        <h2 class="text-center">Why Thyroid Health Matters?</h2>
+        <p class="text-center">
+            Thyroid disorders affect millions worldwide. Early detection can prevent severe complications.
+            Our Machine learning model helps you assess your risk with the levels of thyroid prediction.
+        </p>
+    </div>
+
+    <!-- Adding Some Smooth Animations -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector('.animate-fade-in').style.opacity = "1";
+            document.querySelector('.animate-slide-up').style.transform = "translateY(0)";
+        });
+    </script>
+
+    <style>
+        .animate-fade-in {
+            opacity: 0;
+            transition: opacity 1.5s ease-in-out;
+        }
+
+        .animate-slide-up {
+            transform: translateY(50px);
+            transition: transform 1s ease-in-out;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+{% endblock %}

@@ -1,0 +1,24 @@
+name: env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - flask
+  - mysql-connector-python
+  - joblib
+  - pandas
+  - numpy
+  - seaborn
+  - matplotlib
+  - scikit-learn
+  - xgboost
+  - catboost
+  - tensorflow
+  - imbalanced-learn
+  - pip
+  
+  - pip:
+      - flask-mysql

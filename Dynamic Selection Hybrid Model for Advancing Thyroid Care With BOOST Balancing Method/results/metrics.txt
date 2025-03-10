@@ -1,0 +1,19 @@
+Training Accuracy for Stacking: 1.0000
+Testing Accuracy for Stacking: 0.9910
+
+Classification Report for Stacking:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        87
+           1       1.00      1.00      1.00        86
+           2       1.00      1.00      1.00        86
+           3       1.00      1.00      1.00        87
+           4       1.00      1.00      1.00        88
+           5       1.00      0.92      0.96        86
+           6       0.99      1.00      0.99        85
+           7       1.00      1.00      1.00        87
+           8       0.94      1.00      0.97        88
+
+    accuracy                           0.99       780
+   macro avg       0.99      0.99      0.99       780
+weighted avg       0.99      0.99      0.99       780

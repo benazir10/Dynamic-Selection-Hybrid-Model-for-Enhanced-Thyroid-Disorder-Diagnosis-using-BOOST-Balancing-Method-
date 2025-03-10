@@ -1,0 +1,43 @@
+Project Requirements for Dynamic Selection Hybrid Model for Advancing Thyroid Care
+
+1. Hardware Requirements :
+	Processor: Intel Core i5 (or higher)
+	RAM: Minimum 8GB
+	Storage: At least 50GB free space for datasets and results
+
+2. Software Requirements : 
+	Operating System: Windows 11
+	Development Environment: Visual Studio Code
+	Server Deployment: XAMPP Server
+	Database: MySQL
+
+3. Programming Languages & Frameworks :
+	Backend: Python (Flask)
+	Frontend: HTML, CSS, Bootstrap, JavaScript
+
+4.Libraries & Dependencies : 
+	4.1. Core Libraries:
+			flask
+			mysql-connector
+			pandas
+			numpy
+			seaborn
+			matplotlib
+			scikit-learn
+			tensorflow
+			xgboost
+			catboost
+		
+	4.2. Data Processing & Balancing Methods:
+	
+			Imbalanced-learn (for SMOTE and Tomek Links)
+			Scikit-learn (for AdaBoost, Catboost and other ML models)
+			XGBoost (for Gradient Boosting)
+			
+	4.3. Machine Learning & Feature Selection:
+
+			scikit-learn (for Decision Trees, SVM, KNN, Random Forest,Gradient Boosting)
+
+	4.4. Environment & Package Management:
+			conda (Miniconda environment setup)
+
