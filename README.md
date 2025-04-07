@@ -1,4 +1,4 @@
-# **Dynamic Selection Hybrid Model for Advancing Thyroid Care With BOOST Balancing Method**
+# **Dynamic Selection Hybrid Model for Enhanced Thyroid Disorder Diagnosis using BOOST Balancing Method in Machine Learning**
 
 ### **Overview**
 
