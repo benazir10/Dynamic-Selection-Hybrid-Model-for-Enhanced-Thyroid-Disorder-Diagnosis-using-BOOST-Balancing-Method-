@@ -2,7 +2,7 @@
 
 ### **Overview**
 
-The **Dynamic Selection Hybrid Model** is a **machine learning-driven system** designed to enhance **thyroid disorder diagnosis** by integrating **machine learning and balancing techniques.**
+The **Dynamic Selection Hybrid Model** is a **machine learning-driven system** designed to enhance **thyroid disorder diagnosis** by integrating **machine learning and data balancing techniques.**
 
 - Addresses **class imbalances** using **BOOST balancing methods** to ensure **higher accuracy, adaptability, and reliability.**
 - Dynamically selects the **most efficient classifiers** based on **Permutation Feature Importance (PFI) and ensemble techniques.**
